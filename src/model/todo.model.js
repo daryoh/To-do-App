@@ -11,5 +11,5 @@ var schema = new mongoose.Schema({
 //     return object;
 // });
 
-const Todo = mongoose.model("todos", schema);
+const Todo = mongoose.model("todo", schema);
 module.exports = Todo;
