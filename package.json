@@ -1,0 +1,26 @@
+{
+    "name": "To-do-App",
+    "version": "1.0.0",
+    "description": "ToDo App for Yebox interview",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daryoh/To-do-App.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/daryoh/To-do-App/issues"
+    },
+    "homepage": "https://github.com/daryoh/To-do-App#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.12",
+        "nodemon": "^2.0.14"
+    }
+}
